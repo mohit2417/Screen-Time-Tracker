@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Screen Time Tracker</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <header>
+    <h1>Screen Time Tracker</h1>
+  </header>
+
+  <main>
+    <section class="usage">
+      <h2>Total Screen Time Today</h2>
+      <p id="screen-time">0 hours 0 minutes 0 seconds</p>
+      <button id="track-button">Track My Time</button>
+    </section>
+
+    <section class="break-reminder">
+      <h2>Break Reminder</h2>
+      <button id="remind-button">Remind Me to Take a Break</button>
+    </section>
+
+    <section class="settings">
+      <h2>Set Break Interval</h2>
+      <label for="break-interval">Break interval (minutes): </label>
+      <input type="number" id="break-interval" value="30" min="5">
+      <button id="set-interval">Set Interval</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Screen Time Tracker</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
